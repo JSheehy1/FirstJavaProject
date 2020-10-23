@@ -30,7 +30,7 @@ public class Department {
         String str = "\nName: " + getName() + "\nListof Students: \n\n";
 
         for(int i=0;i<getStudents().length;i++)
-            if(students[i]!null)
+            if(students[i]!=null)
                 str+=students[i];
 
         return str;
